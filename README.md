@@ -2,8 +2,7 @@
 
 this is a docker-commpose template for Headscale [https://github.com/juanfont/headscale]
 
-```
-version: '3.5'
+```version: '3.5'
 
 services:
   headscale:
@@ -17,4 +16,4 @@ services:
     volumes:
       - ./config:/etc/headscale/
       - ./lib:/var/lib/headscale/
-      - ./run:/var/run/headscale```
+      - ./run:/var/run/headscale
